@@ -1760,7 +1760,7 @@ export default withBundleAnalyzer(
         source: "/en/build/smart-contracts/object",
         destination: "/en/build/smart-contracts/move-objects",
         permanent: true,
-      }
+      },
     ],
   }),
 );

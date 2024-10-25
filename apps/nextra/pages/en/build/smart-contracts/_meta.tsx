@@ -23,7 +23,7 @@ export default {
     type: "separator",
     title: "Aptos Standards",
   },
-  "object": {
+  object: {
     title: "Object",
   },
   "digital-asset": {
