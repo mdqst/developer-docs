@@ -33,7 +33,7 @@ export function MoveSection() {
       objects: {
         label: t.objectsExampleLabel,
         description: t.objectsExampleDescription,
-        href: `/${locale}/build/smart-contracts/objects`,
+        href: `/${locale}/build/smart-contracts/move-objects`,
         codeSnippet: objectsCodeSnippet,
       },
       fungibleAssets: {
@@ -64,7 +64,7 @@ export function MoveSection() {
         className="
           flex flex-col lg:flex-row lg:gap-12 justify-between items-center
           w-full max-w-[1200px] xl:max-w-[1280px] lg:px-12
-          border-t border-t-border-divider lg:border-none max-lg:pt-8 
+          border-t border-t-border-divider lg:border-none max-lg:pt-8
         "
       >
         <div className="flex flex-col gap-8 md:gap-12 max-md:mb-8 max-lg:mb-12 px-8 lg:px-0">

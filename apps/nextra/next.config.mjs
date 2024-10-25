@@ -274,22 +274,22 @@ export default withBundleAnalyzer(
       },
       {
         source: "/move/move-on-aptos/objects",
-        destination: "/en/build/smart-contracts/objects",
+        destination: "/en/build/smart-contracts/move-objects",
         permanent: true,
       },
       {
         source: "/move/move-on-aptos/objects/creating-objects",
-        destination: "/en/build/smart-contracts/objects/creating-objects",
+        destination: "/en/build/smart-contracts/object/creating-objects",
         permanent: true,
       },
       {
         source: "/move/move-on-aptos/objects/configuring-objects",
-        destination: "/en/build/smart-contracts/objects/configuring-objects",
+        destination: "/en/build/smart-contracts/object/creating-objects",
         permanent: true,
       },
       {
         source: "/move/move-on-aptos/objects/using-objects",
-        destination: "/en/build/smart-contracts/objects/using-objects",
+        destination: "/en/build/smart-contracts/object/using-objects",
         permanent: true,
       },
       {
@@ -349,7 +349,7 @@ export default withBundleAnalyzer(
       },
       {
         source: "/standards/aptos-object",
-        destination: "/en/build/smart-contracts/aptos-standards/aptos-object",
+        destination: "/en/build/smart-contracts/move-objects",
         permanent: true,
       },
       {
@@ -1051,29 +1051,29 @@ export default withBundleAnalyzer(
       },
       {
         source: "/en/build/smart-contracts/aptos-standards/aptos-object",
-        destination: "/en/build/smart-contracts/objects",
+        destination: "/en/build/smart-contracts/move-objects",
         permanent: true,
       },
       {
         source: "/en/build/smart-contracts/aptos-standards/objects",
-        destination: "/en/build/smart-contracts/objects",
+        destination: "/en/build/smart-contracts/move-objects",
         permanent: true,
       },
       {
         source:
           "/en/build/smart-contracts/aptos-standards/objects/creating-objects",
-        destination: "/en/build/smart-contracts/objects/creating-objects",
+        destination: "/en/build/smart-contracts/object/creating-objects",
         permanent: true,
       },
       {
         source:
           "/en/build/smart-contracts/aptos-standards/objects/configuring-objects",
-        destination: "/en/build/smart-contracts/objects/creating-objects",
+        destination: "/en/build/smart-contracts/object/creating-objects",
         permanent: true,
       },
       {
         source: "/en/build/smart-contracts/objects/creating-objects",
-        destination: "/en/build/smart-contracts/objects/using-objects",
+        destination: "/en/build/smart-contracts/object/creating-objects",
         permanent: true,
       },
       {
@@ -1479,7 +1479,7 @@ export default withBundleAnalyzer(
       },
       {
         source: "/en/build/smart-contracts/objects/configuring-objects",
-        destination: "/en/build/smart-contracts/objects",
+        destination: "/en/build/smart-contracts/object/creating-objects",
         permanent: true,
       },
       {
@@ -1748,7 +1748,7 @@ export default withBundleAnalyzer(
       },
       {
         source: "/en/build/smart-contracts/objects/:page",
-        destination: "/en/build/smart-contracts/aptos-objects/:page",
+        destination: "/en/build/smart-contracts/object/:page",
         permanent: true,
       },
       {
@@ -1756,6 +1756,11 @@ export default withBundleAnalyzer(
         destination: "/en/build/smart-contracts/move-objects",
         permanent: true,
       },
+      {
+        source: "/en/build/smart-contracts/object",
+        destination: "/en/build/smart-contracts/move-objects",
+        permanent: true,
+      }
     ],
   }),
 );
