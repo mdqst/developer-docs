@@ -23,8 +23,8 @@ export default {
     type: "separator",
     title: "Aptos Standards",
   },
-  objects: {
-    title: "Object",
+  "aptos-objects": {
+    title: "Objects",
   },
   "digital-asset": {
     title: "Digital Asset (DA)",
@@ -49,8 +49,7 @@ export default {
   table: {
     title: "Table",
   },
-  "aptos-objects": {
-    href: "/en/build/smart-contracts/objects",
+  "move-objects": {
     title: "Objects",
   },
   "resource-accounts": {

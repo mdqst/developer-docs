@@ -1746,6 +1746,16 @@ export default withBundleAnalyzer(
         destination: "/en/build/smart-contracts/book/move-2",
         permanent: true,
       },
+      {
+        source: "/en/build/smart-contracts/objects/:page",
+        destination: "/en/build/smart-contracts/aptos-objects/:page",
+        permanent: true,
+      },
+      {
+        source: "/en/build/smart-contracts/objects",
+        destination: "/en/build/smart-contracts/move-objects",
+        permanent: true,
+      },
     ],
   }),
 );
